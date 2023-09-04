@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="bg-navbar">
+      <div class="content navbar-principal">
+        <a class="logo" href="#">Profe<span class="bold">Paco</span></a>
+        <nav>
+          <a href="#">Principal</a>
+          <a href="#">Habilidades</a>
+          <a href="#">Proyectos</a>
+          <a href="#">Contactanos</a>
+        </nav>
+      </div>
+    </div>
+    <section class="hero">
+      <div class="hero-contenido">
+        <div class="content">
+          <h1>Desarrollo Web, Móvil y UX Design</h1>
+          <p>
+            Creando experiencias Web y Móvil para todos tus proyectos
+          </p>
+          <a href="#" class="boton">Saber más</a>
+        </div>
+      </div>
+    </section>
+    <main class="content sombra">
+        <section class="habilidades">
+          <h2>Habilidadades</h2>
+          <div class="habilidades-contenido">
+            <div class="habilidad">
+              <h3>Desarrollo Web</h3>
+              <div class="icono">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0d4996" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                  <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                </svg>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt a labore architecto, amet ab, repellendus possimus ducimus odio quidem eos sequi, quia rerum aspernatur soluta sint culpa beatae facilis!</p>
+            </div>
+            <div class="habilidad">
+              <h3>Desarrollo Móvil</h3>
+              <div class="icono">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile-code" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0d4996" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M11.5 21h-3.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8" />
+                  <path d="M20 21l2 -2l-2 -2" />
+                  <path d="M17 17l-2 2l2 2" />
+                  <path d="M11 4h2" />
+                  <path d="M12 17v.01" />
+                </svg>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt a labore architecto, amet ab, repellendus possimus ducimus odio quidem eos sequi, quia rerum aspernatur soluta sint culpa beatae facilis!</p>
+            </div>
+            <div class="habilidad">
+              <h3>UX Design</h3>
+              <div class="icono">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0d4996" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                  <path d="M13.5 6.5l4 4" />
+                </svg>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt a labore architecto, amet ab, repellendus possimus ducimus odio quidem eos sequi, quia rerum aspernatur soluta sint culpa beatae facilis!</p>
+            </div>
+          </div>
+        </section>
+        <section class="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-contenido">
+              <img class="sombra" src="img/imagen2.jpg" alt="Imagen proyectos">
+              <img class="sombra" src="img/imagen3.jpg" alt="Imagen proyectos">
+              <img class="sombra" src="img/imagen4.jpg" alt="Imagen proyectos">
+            </div>
+        </section>
+        <section class="contactanos">
+            <h2>Contactanos</h2>
+            <form class="formulario">
+              <fieldset>
+                  <div class="contenedor-campos">
+                      <div class="campo">
+                          <label>Nombre</label>
+                          <input class="input-text" type="text" placeholder="Tu Nombre">
+                      </div>
+
+                      <div class="campo">
+                          <label>Teléfono</label>
+                          <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                      </div>
+
+                      <div class="campo">
+                          <label>Correo</label>
+                          <input class="input-text" type="email" placeholder="Tu Email">
+                      </div>
+              
+                      <div class="campo">
+                          <label>Mensaje</label>
+                          <textarea class="input-text"></textarea>
+                      </div>
+                  </div> <!-- .contenedor-campos -->
+
+                  <div class="alinear-derecha flex">
+                      <input class="boton" type="submit" value="Enviar">
+                  </div>
+              </fieldset>
+          </form>
+        </section>
+    </main>
+    <footer class="content">
+        <p>ProfePaco - Derechos reservados</p>
+    </footer>
+  </body>
+</html>
